@@ -14,7 +14,7 @@
 
 <body>
     <?php include './internal/navbar.php'; ?>
-    <div class="row">
+    <div class="row" id="home-div">
         <div class="col-lg-1"></div>
         <div class="col-lg-3">
             <img src="./images/main_img_2.svg" alt="image" height="600px" width="600px">
@@ -34,5 +34,7 @@
         </div>
     </div>
 </body>
+
+<?php include './internal/footer.php'; ?>
 
 </html>
