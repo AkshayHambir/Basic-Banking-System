@@ -19,7 +19,7 @@
         padding-top: 3px;
         border-top: 1px solid black;
         border-bottom: 1px solid black;
-        width: 80%;
+        width: 83%;
         margin: auto;
         margin-top: 10px;
         margin-bottom: 10px;
