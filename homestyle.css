@@ -1,7 +1,9 @@
 body{
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 #desc{
     margin-top: 13%;
 }
+
