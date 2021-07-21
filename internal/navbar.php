@@ -12,7 +12,7 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">
+                    <a class="nav-link active" aria-current="page" href="./viewCustomer.php">
                         <button class="btn btn-outline-primary" type="submit">View Customers</button>
                     </a>
                 </li>

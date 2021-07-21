@@ -16,7 +16,7 @@
     }
 
     #footer {
-        margin-top: 1.7%;
+        margin-top: 0.5%;
     }
 
     a{
@@ -52,8 +52,8 @@
                     itaque rem reiciendis dolores modi delectus? Consequuntur optio sed at laboriosam ipsam veritatis
                     distinctio, minima, quia dolores voluptatum, incidunt numquam libero sunt.</p>
                 <div class="container text-center">
-                    <button class="btn btn-outline-primary">View Customers</button>
-                    <button class="btn btn-outline-danger">View Transactions</button>
+                    <a href="./viewCustomer.php"><button class="btn btn-outline-primary">View Customers</button></a>
+                    <a href="#"><button class="btn btn-outline-danger">View Transactions</button></a>
                 </div>
 
             </div>
