@@ -4,7 +4,7 @@
             <span class="text-white">
                 &#169; This website is developed by Akshay Hambir
             </span>
-            <p><a href="https://www.linkedin.com/in/akshay-hambir-9629ba190/" target="_blank"><i class="fab fa-linkedin"></i></a> <a href="https://github.com/AkshayHambir" target="_blank"><i class="fab fa-github-square"></i></a></p>
+            <p><a href="https://www.linkedin.com/in/akshay-hambir-9629ba190/" target="_blank"><i class="fab fa-linkedin" area-hidden="true"></i></a> <a href="https://github.com/AkshayHambir" target="_blank"><i class="fab fa-github-square" area-hidden="true"></i></a></p>
         </div>
 
     </div>

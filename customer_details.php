@@ -16,6 +16,20 @@ $res = mysqli_fetch_array($s_query);
     <title>iMoneyBank - Customer details</title>
     <?php include "./links.php"; ?>
     <link rel="stylesheet" href="./innerstyle.css">
+    <style>
+    a {
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.3);
+    }
+
+    a:hover {
+        color: inherit;
+    }
+
+    .fab {
+        font-size: 25px;
+    }
+    </style>
 </head>
 
 <body>
@@ -75,8 +89,8 @@ $res = mysqli_fetch_array($s_query);
         <form method="POST">
             <div class="mb-3">
                 <select class="form-select form-control" name="rec_cust" aria-label="Default select example" required>
-                    
-                <?php
+
+                    <?php
                 $cust_query = "select * from accounts where acc_id!='$id'";
                 $c_query = mysqli_query($con,$cust_query); 
                 while($c_res = mysqli_fetch_array($c_query)){
@@ -117,10 +131,10 @@ $receiver = $_POST['rec_cust'];
 $transfer_amt = $_POST['amount'];
 if($transfer_amt>=$res['acc_balance']){
     ?>
-        <script>
-            alert("Insufficient Balance");
-        </script>
-    <?php
+<script>
+alert("Insufficient Balance");
+</script>
+<?php
 }
 else{
     // fetching receiver ifo 
@@ -138,11 +152,11 @@ else{
     $receiver_op = "update accounts set acc_balance = '$receiver_balance' where acc_id = '$rec_id'";
     $receiver_update = mysqli_query($con,$receiver_op);
     ?>
-    <script>
-        alert("Amount transfered Successfully");
-    </script>
+<script>
+alert("Amount transfered Successfully");
+</script>
 
-    <?php
+<?php
     // updating transaction history
     $sender_name = $res['acc_holder_name'];
     $sender_acc = $res['acc_number'];
