@@ -18,7 +18,7 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">
-                        <button class="btn btn-outline-dark" type="submit">View Transactions</button>
+                        <button class="btn btn-outline-success" type="submit">View Transactions</button>
                     </a>
                 </li>
                 <li class="nav-item">
