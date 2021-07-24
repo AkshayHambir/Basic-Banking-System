@@ -17,7 +17,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">
+                    <a class="nav-link" href="./viewTransactions.php">
                         <button class="btn btn-outline-success" type="submit">View Transactions</button>
                     </a>
                 </li>

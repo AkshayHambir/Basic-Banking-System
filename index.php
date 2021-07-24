@@ -53,7 +53,7 @@
                     distinctio, minima, quia dolores voluptatum, incidunt numquam libero sunt.</p>
                 <div class="container text-center">
                     <a href="./viewCustomer.php"><button class="btn btn-outline-primary">View Customers</button></a>
-                    <a href="#"><button class="btn btn-outline-success">View Transactions</button></a>
+                    <a href="./viewTransactions.php"><button class="btn btn-outline-success">View Transactions</button></a>
                 </div>
 
             </div>
